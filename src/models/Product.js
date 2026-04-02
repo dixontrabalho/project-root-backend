@@ -4,6 +4,7 @@ class Product extends Model {
   static init(sequelize) {
     super.init({
       enabled: { type: DataTypes.BOOLEAN, defaultValue: false },
+
       nome: { type: DataTypes.STRING, allowNull: false },
       slug: { type: DataTypes.STRING, allowNull: false, unique: true },
       stock: { type: DataTypes.INTEGER, defaultValue: 0 },

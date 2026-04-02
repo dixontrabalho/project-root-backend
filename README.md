@@ -11,8 +11,6 @@ Node.js (>= 18.x recomendado)
 Express.js 5.x
 PostgreSQL
 Sequelize (ORM)
-
-
 Bibliotecas e Ferramentas
 bcryptjs – Hash de senhas
 jsonwebtoken – Autenticação via JWT
@@ -59,8 +57,9 @@ Rodar em produção
 npm start
 
 A API estará disponível em:
-
 http://localhost:3000
+
+
 5. Estrutura do Projeto
 src/
 ├── app.js                 # Configuração do Express
@@ -100,6 +99,7 @@ tests/
 ├── user.test.js
 ├── product.test.js
 └── category.test.js
+
 6. Configuração
 Banco de Dados
 
@@ -120,6 +120,7 @@ Supertest
 Tipos de testes
 Testes de integração de endpoints
 Validação de regras de negócio
+
 8. API / Endpoints
 Autenticação
 POST /auth/login

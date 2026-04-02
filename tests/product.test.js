@@ -108,5 +108,3 @@ describe('Product API', () => {
     expect(updatedProduct.body.options.find(opt => opt.titulo === 'Material')).toBeDefined();
   });
 });
-
-
