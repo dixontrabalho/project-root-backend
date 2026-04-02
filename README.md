@@ -1,11 +1,11 @@
-📦 Backend API - Project Root
-1. Descrição do Projeto
+## Backend API - Project Root
+## 1. Descrição do Projeto
 
 Este projeto consiste em uma API backend RESTful desenvolvida para gerenciamento de usuários, produtos e categorias. A aplicação fornece autenticação baseada em token (JWT), controle de acesso e operações completas de CRUD.
 
 O sistema foi projetado com foco em escalabilidade, organização modular e boas práticas de desenvolvimento backend, utilizando arquitetura baseada em camadas (controllers, services, models, routes).
 
-2. Tecnologias e Dependências
+## 2. Tecnologias e Dependências
 Stack Principal
 Node.js (>= 18.x recomendado)
 Express.js 5.x
@@ -30,7 +30,7 @@ PostgreSQL em execução
 Gerenciador de pacotes (npm ou yarn)
 Passos
 # Clone o repositório
-git clone <url-do-repositorio>
+git clone <https://github.com/dixontrabalho/project-root-backend>
 
 # Acesse a pasta do projeto
 cd project-root
@@ -60,7 +60,8 @@ A API estará disponível em:
 http://localhost:3000
 
 
-5. Estrutura do Projeto
+## 5. Estrutura do Projeto
+
 src/
 ├── app.js                 # Configuração do Express
 ├── server.js              # Inicialização do servidor
@@ -100,7 +101,7 @@ tests/
 ├── product.test.js
 └── category.test.js
 
-6. Configuração
+## 6. Configuração
 Banco de Dados
 
 Configure o banco PostgreSQL conforme o .env.
@@ -111,7 +112,7 @@ Para rodar migrations e seeds (se aplicável):
 
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
-7. Testes
+## 7. Testes
 Executar testes
 npm test
 Tecnologias utilizadas
@@ -121,7 +122,7 @@ Tipos de testes
 Testes de integração de endpoints
 Validação de regras de negócio
 
-8. API / Endpoints
+## 8. API / Endpoints
 Autenticação
 POST /auth/login
 Request:
@@ -177,7 +178,7 @@ Este projeto está licenciado sob a licença ISC.
 11. Autores / Contato
 
 Autor:
-Dixon Brito de Sá
+Dixon Brito de Sá com a orientação di Nazaré Almeida!
 
 Contato:
 
